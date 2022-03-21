@@ -1,0 +1,156 @@
+/*Styling Landing Page*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 18px 0px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pages {
+    display: flex;
+    gap: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;   
+}
+
+/* Section 1*/
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    align-items: center;
+    gap: 70px;
+   
+}
+
+.copy-box {
+  max-width: 450px;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.photo-box {
+    border: 1px solid white;
+    width: 450px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+/* Section two */
+.section-two {
+    display: flex;
+    flex-direction: column;
+    height: 450px;    
+    justify-content: space-evenly;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.info-header p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.each-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.each-box p {
+    color: rgb(105, 105, 105);
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+.box {
+    border: solid 4px #2496f3;
+    width: 160px;
+    height: 150px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+/* Section Three */
+
+.section-three {
+    display: flex;
+    height: 400px;
+    background-color: #E5E7EB;
+}
